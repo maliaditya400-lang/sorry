@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Envelope -->
+  <div class="envelope" id="envelope">
+    <div class="top"></div>
+    <div class="letter">
+      <p>Click to open</p>
+    </div>
+  </div>
+
+  <!-- Message Sections -->
+  <div class="message hidden" id="message">
+    <section>
+      <h2>I’m Sorry</h2>
+      <p>I made a mistake, and it affected you. I’m genuinely sorry.</p>
+    </section>
+
+    <section>
+      <h2>I Understand</h2>
+      <p>Your feelings were valid, and I should have been more careful.</p>
+    </section>
+
+    <section>
+      <h2>Responsibility</h2>
+      <p>I’m taking responsibility and trying to do better.</p>
+    </section>
+
+    <section>
+      <h2>That’s All</h2>
+      <p>You don’t have to reply. I just wanted you to know this.</p>
+    </section>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
